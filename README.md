@@ -1,4 +1,4 @@
-# aurelia-test
+# aurelia
 
 This project is bootstrapped by [aurelia/new](https://github.com/aurelia/new).
 
