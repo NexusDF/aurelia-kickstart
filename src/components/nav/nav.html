@@ -1,0 +1,11 @@
+<import from="@components/container/container.html" />
+
+<nav class="text-white">
+    <container>
+        <ul class="flex gap-x-4">
+            <li repeat.for="link of _links">
+                <a class="py-3 block ${_url === link.path ? 'text-sky-500' : ''}" href.bind="link.path">${link.label}</a>
+            </li>
+        </ul>
+    </container>
+</nav>
